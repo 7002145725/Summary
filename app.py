@@ -57,7 +57,7 @@ if not API_KEY:
     )
     st.stop()
 
-client = genai.Client(api_key=API_KEY)
+client = genai.Client(api_key=AQ.Ab8RN6ImSD5YjnAEod_M5pWLl3ouv0wurNVN4f_LC_MMqgBgtg)
 
 # ---------- Sidebar settings ----------
 st.sidebar.header("⚙️ Summary Settings")
