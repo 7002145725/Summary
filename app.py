@@ -7,7 +7,7 @@ from google import genai
 from google.genai import types
 
 # Load environment variables
-load_dotenv()
+load_dotenv(r"C:\Users\priya\Desktop\SUMMARY\.env")
 
 API_KEY = os.getenv("GEMINI_API_KEY")
 
@@ -57,7 +57,7 @@ if not API_KEY:
     )
     st.stop()
 
-client = genai.Client(api_key=AQ.Ab8RN6ImSD5YjnAEod_M5pWLl3ouv0wurNVN4f_LC_MMqgBgtg)
+client = genai.Client(api_key=API_KEY)
 
 # ---------- Sidebar settings ----------
 st.sidebar.header("⚙️ Summary Settings")
